@@ -5,4 +5,4 @@
  <!-- ! Using Services AND Dependency Injection -->
  # Module Introduction
  # Why would you need services?
- 
+ # Injecting the Logging Service into Component
