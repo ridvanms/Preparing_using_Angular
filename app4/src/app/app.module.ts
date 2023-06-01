@@ -9,6 +9,7 @@ import { heighLightDirective } from './basic-directives/heighlightDirective.dire
 import { BetterHighlightDirective } from './basic-directives/better-highlight.directive';
 import { UnlessDirective } from './basic-directives/unless.directive';
 import { DropdownDirective } from './basic-directives/dropdown.directive';
+import { LoggingStatusChange } from './services/loggingStatus.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { DropdownDirective } from './basic-directives/dropdown.directive';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [LoggingStatusChange],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
