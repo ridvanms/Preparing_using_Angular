@@ -6,3 +6,5 @@
  # Module Introduction
  # Why would you need services?
  # Injecting the Logging Service into Component
+ # Alternative injection syntax
+ # Creating Data Service

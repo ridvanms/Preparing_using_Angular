@@ -10,6 +10,7 @@ import { BetterHighlightDirective } from './basic-directives/better-highlight.di
 import { UnlessDirective } from './basic-directives/unless.directive';
 import { DropdownDirective } from './basic-directives/dropdown.directive';
 import { loggingService } from './services/loggingService.service';
+import { ServerService } from './services/serversService.service';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { loggingService } from './services/loggingService.service';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [loggingService],
+  providers: [loggingService,ServerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
