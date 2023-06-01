@@ -8,6 +8,7 @@ import { NumbersComponent } from './numbers/numbers.component';
 import { heighLightDirective } from './basic-directives/heighlightDirective.directive';
 import { BetterHighlightDirective } from './basic-directives/better-highlight.directive';
 import { UnlessDirective } from './basic-directives/unless.directive';
+import { DropdownDirective } from './basic-directives/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UnlessDirective } from './basic-directives/unless.directive';
     NumbersComponent,
     heighLightDirective,
     BetterHighlightDirective,
-    UnlessDirective
+    UnlessDirective,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
