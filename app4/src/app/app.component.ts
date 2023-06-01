@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app4';
+  servers = [
+    {name:"server1",content:"it's so cool"},
+    {name:"server2",content:"it's so cool"}
+  ]
+
+  onServerAdded(feature:{name:string,content:string}){
+    this.servers.push({
+      name:feature.name,
+      content:feature.content
+    })
+  }
+
+  
+  
 }
