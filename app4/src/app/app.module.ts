@@ -7,6 +7,7 @@ import { ServerComponent } from './server/server.component';
 import { NumbersComponent } from './numbers/numbers.component';
 import { heighLightDirective } from './basic-directives/heighlightDirective.directive';
 import { BetterHighlightDirective } from './basic-directives/better-highlight.directive';
+import { UnlessDirective } from './basic-directives/unless.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BetterHighlightDirective } from './basic-directives/better-highlight.di
     ServerComponent,
     NumbersComponent,
     heighLightDirective,
-    BetterHighlightDirective
+    BetterHighlightDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
