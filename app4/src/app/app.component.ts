@@ -6,7 +6,7 @@ import { ServerService } from './services/serversService.service';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers:[loggingService,ServerService]
+  providers:[loggingService,ServerService,]
 })
 export class AppComponent implements OnInit {
   title = 'app4';

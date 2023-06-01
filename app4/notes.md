@@ -8,3 +8,4 @@
  # Injecting the Logging Service into Component
  # Alternative injection syntax
  # Creating Data Service
+ # Injecting Service into Service

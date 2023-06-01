@@ -11,6 +11,7 @@ import { UnlessDirective } from './basic-directives/unless.directive';
 import { DropdownDirective } from './basic-directives/dropdown.directive';
 import { loggingService } from './services/loggingService.service';
 import { ServerService } from './services/serversService.service';
+import { welcomeService } from './services/addService.service';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { ServerService } from './services/serversService.service';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [loggingService,ServerService],
+  providers: [loggingService,ServerService,welcomeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
